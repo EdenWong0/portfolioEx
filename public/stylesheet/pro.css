@@ -1,0 +1,25 @@
+/*
+    File name: pro.css
+    Student Name: Pak Hin Wong
+    ID: 301224021
+    Date: June 08, 2023
+*/
+body {
+    font-family: 'Roboto Flex';  
+    display: flex;
+    min-width: 300px;    
+    flex-wrap: wrap;
+  }
+
+  
+  #mainContainer {
+    width: 90%;
+    min-width: 300;  
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }

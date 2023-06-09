@@ -1,0 +1,54 @@
+<!--
+    File name:project.ejs
+    Student Name: Pak Hin Wong
+    ID: 301224021
+    Date: June 08, 2023
+-->
+<main class=”container”>
+  <%- include ('partials/header.ejs') %>
+  <%- include ('partials/main_nav.ejs') %>
+  <link rel="stylesheet" href="/stylesheet/style.css"/>
+  <link rel="stylesheet" href="/stylesheet/project.css"/>
+  <link rel="stylesheet" href="/stylesheet/pro.css"/>
+  <body>
+        <div class=”jumbotron”>
+        <h1 class=”display-4”>Welcome to <%= title %> page</h1>
+        <div id="mainContainer">
+            <div id="projectsDiv" class="projects">
+              <div id="project1" class="projectsDiv">
+                <h2>Website for a real estate agent</h2>
+                <img src="/img/project1.png" alt="project1">  
+                <p>This is my final project which make a website for a local real estate agent to develop his public website.<br>
+                    People can visit the website to check the reviews, the available properties<br>
+                    and the contact information for the agent.</p>              
+              </div>
+              <div id="project2" class="projectsDiv">
+                <h2>Express Portfolio Site</h2>
+                <img src="/img/project2.png" alt="project2">   
+                <p>
+                    My role in the Express Portfolio Site is to provide guidance and assistance in developing the site<br>
+                    using ExpressJS and NodeJS, along with implementing the EJS templating engine and Express routes.<br>
+                    The outcome of the Express Portfolio Site is a functional portfolio website built with ExpressJS and NodeJS.<br>
+                    The site includes multiple view templates, such as the Home Page and Contact Me page, which are rendered using the EJS templating engine.<br>
+                    Express routes have been implemented for each page of the site, allowing for proper navigation and rendering of the corresponding views.
+                </p>     
+              </div>
+              <div id="project3" class="projectsDiv">
+                <h2>Bug smasher</h2>
+                <img src="/img/project3.png" alt="project3">
+                <p>
+                    My role in the Bug Smasher project is to assist and provide guidance in developing the application.<br>
+                    The Bug Smasher is a game or application aimed at simulating the experience of smashing bugs on a digital platform.<br>
+                    The outcome of the Bug Smasher project is a functional and interactive game/application that allows users to "smash" bugs using various actions or controls.<br>
+                    The application may include features such as bug spawning, time limits, scoring system, power-ups, and different levels of difficulty.<br>
+                    The specific implementation and features can vary depending on the project requirements.
+                </p>
+              </div>
+            </div>    
+          </div>
+    </div>
+  </body>   
+</main>
+
+<%- include ('partials/bottom_nav.ejs') %>
+<%- include ('partials/footer.ejs') %>
